@@ -1,7 +1,7 @@
 #Arena Pernambuco
 
 ##screencast
-![Protópico do site](https://youtu.be/rY0nByWVCTE)
+[Assista ao vídeo do projeto](https://youtu.be/rY0nByWVCTE)
 
 
 --
