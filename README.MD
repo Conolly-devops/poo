@@ -33,6 +33,7 @@ Como consequência, ocorre:
 
 O projeto busca **resolver esse problema por meio de uma solução tecnológica**, facilitando a divulgação, descoberta e organização de eventos na Arena Pernambuco.
 
+[![Figma](https://img.shields.io/badge/Ver%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/board/RikhYjy6IYuRj77CQKp6zE/Untitled?node-id=0-1&t=tau9ZHPXgrMuIFkL-1)
 
 ## 🧑‍💻 Equipe
 * Marcello Augusto
