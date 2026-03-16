@@ -33,7 +33,17 @@ Como consequência, ocorre:
 
 O projeto busca **resolver esse problema por meio de uma solução tecnológica**, facilitando a divulgação, descoberta e organização de eventos na Arena Pernambuco.
 
+## 🎨 Protótipo no Figma
+
+Clique na imagem abaixo para visualizar o board do projeto no Figma.
+
 [![Figma](https://img.shields.io/badge/Ver%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/board/RikhYjy6IYuRj77CQKp6zE/Untitled?node-id=0-1&t=tau9ZHPXgrMuIFkL-1)
+
+## 🎥 Demonstração do Projeto
+
+Clique na imagem abaixo para assistir à demonstração do sistema.
+
+[![Demonstração do Projeto](https://img.youtube.com/vi/rY0nByWVCTE/0.jpg)](https://youtu.be/rY0nByWVCTE)
 
 ## 🧑‍💻 Equipe
 * Marcello Augusto
