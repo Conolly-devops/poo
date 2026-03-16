@@ -33,6 +33,8 @@ Como consequência, ocorre:
 
 O projeto busca **resolver esse problema por meio de uma solução tecnológica**, facilitando a divulgação, descoberta e organização de eventos na Arena Pernambuco.
 
+## Entrega 1
+
 ## 🎨 Protótipo no Figma
 
 Clique na imagem abaixo para visualizar o board do projeto no Figma.
