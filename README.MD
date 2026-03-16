@@ -45,9 +45,10 @@ Clique na imagem abaixo para assistir à demonstração do sistema.
 
 [![Demonstração do Projeto](https://img.youtube.com/vi/rY0nByWVCTE/0.jpg)](https://youtu.be/rY0nByWVCTE)
 
-## 🎥 História de usuário
+## 📄 Histórias de Usuário
 
 Clique na imagem abaixo abaixo para visualizar.
+
 [![Google Docs](https://img.shields.io/badge/Histórias%20de%20Usuário-Google%20Docs-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/1pr9lrvJhAbzC1pVu2YAyu88P86T6NZQV/edit?usp=sharing)
 
 ## 🧑‍💻 Equipe
