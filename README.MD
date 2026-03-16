@@ -1,8 +1,10 @@
 #Arena Pernambuco
 
-##screencast
-[Assista ao vídeo do projeto](https://youtu.be/rY0nByWVCTE)
+## 🎥 Apresentando protótipo de baixa fidelidade
 
+Clique na imagem abaixo para assistir à demonstração do sistema.
+
+[![Protótipo de baixa fidelidade](https://img.youtube.com/vi/rY0nByWVCTE/0.jpg)](https://youtu.be/rY0nByWVCTE)
 
 --
 ## 🧑‍💻 Equipe
