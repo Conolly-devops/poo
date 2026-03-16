@@ -5,7 +5,7 @@
 
 Clique na imagem abaixo para visualizar o board do projeto no Figma.
 
-[![Abrir no Figma](https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg)](https://www.figma.com/board/RikhYjy6IYuRj77CQKp6zE/Untitled?node-id=0-1&t=tau9ZHPXgrMuIFkL-1)
+[![Figma](https://img.shields.io/badge/Ver%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/board/RikhYjy6IYuRj77CQKp6zE/Untitled?node-id=0-1&t=tau9ZHPXgrMuIFkL-1)
 
 --
 
