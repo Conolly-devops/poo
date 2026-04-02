@@ -4,16 +4,18 @@ import { formatDate, getIngressoStatus, getCategoriaInfo } from "@/lib/evento-ut
 interface EventCardProps {
   evento: Evento;
   onComprar: (evento: Evento) => void;
+  onClick?: (evento: Evento) => void; 
   delay?: number;
 }
 
-export function EventCard({ evento, onComprar, delay = 0 }: EventCardProps) {
+export function EventCard({ evento, onComprar, onClick, delay = 0 }: EventCardProps) {
   const cat = getCategoriaInfo(evento.categoria);
   const { day, month } = formatDate(evento.data);
   const status = getIngressoStatus(evento.ingressosTotal, evento.ingressosVendidos);
 
   return (
     <div
+      onClick={() => onClick && onClick(evento)} 
       className="bg-card border border-border rounded-lg overflow-hidden cursor-pointer transition-all duration-200 shadow-arena-sm hover:-translate-y-1 hover:shadow-arena-lg hover:border-primary/20 animate-fade-up"
       style={{ animationDelay: `${delay}s` }}
     >
@@ -62,7 +64,10 @@ export function EventCard({ evento, onComprar, delay = 0 }: EventCardProps) {
           <button
             className="px-4 py-2 rounded-[10px] text-[13px] font-extrabold bg-primary text-primary-foreground transition-all hover:bg-arena-blue-dark hover:scale-[1.04] disabled:bg-secondary disabled:text-muted-foreground disabled:cursor-not-allowed disabled:transform-none tracking-wide"
             disabled={status.esgotado}
-            onClick={() => onComprar(evento)}
+            onClick={(e) => {
+              e.stopPropagation(); 
+              onComprar(evento);
+            }}
           >
             {status.esgotado ? "Esgotado" : "Comprar"}
           </button>

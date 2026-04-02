@@ -13,15 +13,16 @@ interface HomePageProps {
   loading: boolean;
   onComprar: (evento: Evento) => void;
   setPage: (page: string) => void;
+  onVerDetalhes: (evento: Evento) => void; 
 }
 
-export function HomePage({ eventos, loading, onComprar, setPage }: HomePageProps) {
+export function HomePage({ eventos, loading, onComprar, setPage, onVerDetalhes }: HomePageProps) {
   return (
     <>
       <Ticker eventos={eventos} />
       <Hero setPage={setPage} />
 
-      {/* Featured events */}
+
       <section className="py-[72px] px-12 max-md:px-5 max-md:py-14">
         <SectionHeader tag="Em destaque" title="Ingressos à Venda" subtitle="Escolha seu evento e a quantidade de ingressos." />
         {loading ? (
@@ -34,7 +35,7 @@ export function HomePage({ eventos, loading, onComprar, setPage }: HomePageProps
           <>
             <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-5">
               {eventos.slice(0, 3).map((e, i) => (
-                <EventCard key={e.id} evento={e} onComprar={onComprar} delay={i * 0.1} />
+                <EventCard key={e.id} evento={e} onComprar={onComprar} delay={i * 0.1} onClick={onVerDetalhes} /> 
               ))}
             </div>
             {eventos.length > 3 && (
@@ -51,12 +52,10 @@ export function HomePage({ eventos, loading, onComprar, setPage }: HomePageProps
         )}
       </section>
 
-      {/* How it works */}
       <section className="px-12 pb-[72px] max-md:px-5 max-md:pb-14">
         <HowItWorks />
       </section>
 
-      {/* Next event */}
       <section className="px-12 pb-[72px] max-md:px-5 max-md:pb-14">
         <SectionHeader tag="Não perca" title="Próximo Evento" subtitle="Escolha o próximo evento que você deseja." />
         <NextEventSection eventos={eventos} loading={loading} onComprar={onComprar} />
