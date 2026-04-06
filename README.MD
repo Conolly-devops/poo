@@ -54,12 +54,13 @@ Clique na imagem abaixo abaixo para visualizar.
 [![Google Docs](https://img.shields.io/badge/Histórias%20de%20Usuário-Google%20Docs-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/1pr9lrvJhAbzC1pVu2YAyu88P86T6NZQV/edit?usp=sharing)
 
 ## 🧑‍💻 Equipe
-* Marcello Augusto
-* Matheus Conolly
-* Luiz Felipe 
-* Luiz Henrique 
+
+* [Marcello Augusto](https://github.com/MGT-21)
+* [Matheus Conolly](https://github.com/Conolly-devops)
+* [Luiz Felipe](https://github.com/LuizMXavier)
+* [Luiz Henrique](https://github.com/Luizrocha0)
 * Pedro Armando  
-* Paulo Nery
+* [Paulo Nery](https://github.com/Paulo-nf)
 
 
 
